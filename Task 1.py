@@ -1,7 +1,7 @@
-a = input('Enter the first number: ')
-b = input('Enter the second number: ')
+a = int(input('Enter the first number: '))
+b = int(input('Enter the second number: '))
 
-print('Addition: " + int(a)+int(b))
-print('Subtraction: " + int(a)-int(b))
-print('Multiplication: " + int(a)*int(b))
-print('Division: " + int(a)/int(b))
+print('Addition: " + a + b)
+print('Subtraction: " + a - b)
+print('Multiplication: " + a * b)
+print('Division: " + a / b)
